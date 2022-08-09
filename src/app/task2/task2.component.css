@@ -1,0 +1,42 @@
+.ticker{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 80%; */
+    height: 60%;
+    margin: 0 auto;
+}
+.news{
+    width: 80%;
+    /* background-color: #cc4444; */
+    background-color: rgb(31, 31, 34);
+    padding: 0 2%;
+    color: #fff;
+    font-size: 27px;
+    padding-top: 20px;
+    font-family: "Roboto",sans-serif;
+}
+.title{
+    width: 20%;
+    text-align: center;
+    background:#c81c1c ;
+    position: relative;
+}
+.title h5{
+    font-size: 35px;
+    font-family: "Roboto",serif;
+    color: #fff;
+    word-spacing: 5;
+    text-transform: uppercase;
+    padding-top: 12px;
+}
+.title::after{
+    position: absolute;
+    content: "";
+    right: -13%;
+    border-left: 46px solid #c81c1c;
+    border-top: 38px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 43px solid transparent;
+    top: 0;
+
+}
